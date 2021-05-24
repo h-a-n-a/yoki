@@ -1,0 +1,19 @@
+{
+  "name": "yoki",
+  "version": "0.0.0",
+  "description": "`yoki` a.k.a. `container`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-a-n-a/yoki.git"
+  },
+  "author": "h-a-n-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h-a-n-a/yoki/issues"
+  },
+  "homepage": "https://github.com/h-a-n-a/yoki#readme"
+}
