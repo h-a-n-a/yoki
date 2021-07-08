@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/h-a-n-a/yoki/issues"
   },
-  "homepage": "https://github.com/h-a-n-a/yoki#readme"
+  "homepage": "https://github.com/h-a-n-a/yoki#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
