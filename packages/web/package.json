@@ -1,26 +1,31 @@
 {
   "name": "@yoki/web",
   "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "h-a-n-a <andywangsy@gmail.com>",
-  "homepage": "https://github.com/h-a-n-a/yoki/tree/main/packages/web#readme",
-  "license": "MIT",
-  "main": "lib/web.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/h-a-n-a/yoki.git"
-  },
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "bugs": {
-    "url": "https://github.com/h-a-n-a/yoki/issues"
+  "dependencies": {
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rebass": "^4.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.14",
+    "autoprefixer": "^10.2.6",
+    "eslint": "7.30.0",
+    "eslint-config-next": "11.0.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4",
+    "typescript": "4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
